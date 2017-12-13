@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HearthstoneApp</string>
+    <string name="cards">Cards</string>
+    <string name="card_name">Card Name:</string>
+    <string name="cost">Cost:</string>
+    <string name="type">Type:</string>
+    <string name="attack">Attack</string>
+    <string name="health">Health:</string>
+    <string name="effect">Effect:</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.molina.hearthstone_list.MainActivity"
+    android:weightSum="11">
+
+    <ImageView
+        android:id="@+id/image_view_hs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/hearthstone"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/cards"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="2"/>
+
+    <ListView
+        android:id="@+id/list_view_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+    </ListView>
+
+</LinearLayout>
